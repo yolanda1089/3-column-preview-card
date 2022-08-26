@@ -1,0 +1,96 @@
+body {
+    background-color: hsl(0, 0%, 95%);
+    font-family:'Lexend Deca';
+    margin: 0;
+
+}
+
+section {
+    display: flex;
+    justify-content: center;
+
+}
+
+#sedan-column, #suv-column, #luxury-column {
+    width: 307px;
+    height: 500px;
+    color:hsl(0, 0%, 95%);
+    padding-left: 50px;
+    padding-right: 65px;
+    box-sizing: border-box;
+
+}
+
+#sedan-column {
+    background-color: hsl(31, 77%, 52%);
+    
+}
+
+#suv-column {
+    background-color: hsl(184, 100%, 22%);
+    
+}
+
+#luxury-column {
+    background-color: hsl(179, 100%, 13%);
+    
+}
+
+h1 {
+    font-family:'Big Shoulders Display';
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+#sedan-learn, #suv-learn, #luxury-learn {
+    width: 145px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: white;
+    text-align: center;
+    font-size: 15px;
+    line-height: 40px;
+    margin-bottom: 45px;
+}
+
+#sedan-learn {
+    color:hsl(31, 77%, 52%);
+    
+}
+
+#suv-learn {
+    color:hsl(184, 100%, 22%);
+
+
+}
+
+#luxury-learn {
+    color:hsl(179, 100%, 13%);
+
+}
+
+#sedan-learn:hover {
+    border: 2px solid white;
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    cursor: pointer;
+}
+
+#suv-learn:hover {
+    border: 2px solid white;
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    cursor: pointer;
+}
+
+#luxury-learn:hover {
+    border: 2px solid white;
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+    cursor: pointer;
+}
